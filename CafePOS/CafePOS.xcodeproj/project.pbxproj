@@ -19,6 +19,16 @@
 		C5A01C4219304FB8003BAD15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2A19304FB8003BAD15 /* UIKit.framework */; };
 		C5A01C4A19304FB8003BAD15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C4819304FB8003BAD15 /* InfoPlist.strings */; };
 		C5A01C4C19304FB8003BAD15 /* CafePOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A01C4B19304FB8003BAD15 /* CafePOSTests.m */; };
+		C5A01C5919307CDA003BAD15 /* bgLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C5819307CDA003BAD15 /* bgLogin.png */; };
+		C5A01C5D19307D3E003BAD15 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A01C5B19307D3E003BAD15 /* LoginController.m */; };
+		C5A01C5E19307D3E003BAD15 /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C5C19307D3E003BAD15 /* LoginController.xib */; };
+		C5A01C601930891A003BAD15 /* bgLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C5F19308919003BAD15 /* bgLogin@2x.png */; };
+		C5A01C6319308EE2003BAD15 /* imgLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6119308EE2003BAD15 /* imgLogo.png */; };
+		C5A01C6419308EE2003BAD15 /* imgLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6219308EE2003BAD15 /* imgLogo@2x.png */; };
+		C5A01C6919309805003BAD15 /* btnRememberMe_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6519309804003BAD15 /* btnRememberMe_Selected.png */; };
+		C5A01C6A19309805003BAD15 /* btnRememberMe_Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6619309805003BAD15 /* btnRememberMe_Selected@2x.png */; };
+		C5A01C6B19309805003BAD15 /* btnRememberMe.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6719309805003BAD15 /* btnRememberMe.png */; };
+		C5A01C6C19309805003BAD15 /* btnRememberMe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C6819309805003BAD15 /* btnRememberMe@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +60,17 @@
 		C5A01C4B19304FB8003BAD15 /* CafePOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafePOSTests.m; sourceTree = "<group>"; };
 		C5A01C5519304FC7003BAD15 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5A01C5619304FC7003BAD15 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5A01C5819307CDA003BAD15 /* bgLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgLogin.png; sourceTree = "<group>"; };
+		C5A01C5A19307D3E003BAD15 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		C5A01C5B19307D3E003BAD15 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		C5A01C5C19307D3E003BAD15 /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		C5A01C5F19308919003BAD15 /* bgLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgLogin@2x.png"; sourceTree = "<group>"; };
+		C5A01C6119308EE2003BAD15 /* imgLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgLogo.png; sourceTree = "<group>"; };
+		C5A01C6219308EE2003BAD15 /* imgLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgLogo@2x.png"; sourceTree = "<group>"; };
+		C5A01C6519309804003BAD15 /* btnRememberMe_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnRememberMe_Selected.png; sourceTree = "<group>"; };
+		C5A01C6619309805003BAD15 /* btnRememberMe_Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRememberMe_Selected@2x.png"; sourceTree = "<group>"; };
+		C5A01C6719309805003BAD15 /* btnRememberMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnRememberMe.png; sourceTree = "<group>"; };
+		C5A01C6819309805003BAD15 /* btnRememberMe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRememberMe@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +130,14 @@
 		C5A01C2C19304FB8003BAD15 /* CafePOS */ = {
 			isa = PBXGroup;
 			children = (
+				C5A01C5719307CDA003BAD15 /* images */,
 				C5A01C3519304FB8003BAD15 /* AppDelegate.h */,
 				C5A01C3619304FB8003BAD15 /* AppDelegate.m */,
 				C5A01C3819304FB8003BAD15 /* Images.xcassets */,
 				C5A01C2D19304FB8003BAD15 /* Supporting Files */,
+				C5A01C5A19307D3E003BAD15 /* LoginController.h */,
+				C5A01C5B19307D3E003BAD15 /* LoginController.m */,
+				C5A01C5C19307D3E003BAD15 /* LoginController.xib */,
 			);
 			path = CafePOS;
 			sourceTree = "<group>";
@@ -144,6 +169,21 @@
 				C5A01C4819304FB8003BAD15 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5A01C5719307CDA003BAD15 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C5A01C6519309804003BAD15 /* btnRememberMe_Selected.png */,
+				C5A01C6619309805003BAD15 /* btnRememberMe_Selected@2x.png */,
+				C5A01C6719309805003BAD15 /* btnRememberMe.png */,
+				C5A01C6819309805003BAD15 /* btnRememberMe@2x.png */,
+				C5A01C6119308EE2003BAD15 /* imgLogo.png */,
+				C5A01C6219308EE2003BAD15 /* imgLogo@2x.png */,
+				C5A01C5F19308919003BAD15 /* bgLogin@2x.png */,
+				C5A01C5819307CDA003BAD15 /* bgLogin.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +263,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5A01C3119304FB8003BAD15 /* InfoPlist.strings in Resources */,
+				C5A01C6B19309805003BAD15 /* btnRememberMe.png in Resources */,
+				C5A01C601930891A003BAD15 /* bgLogin@2x.png in Resources */,
+				C5A01C6919309805003BAD15 /* btnRememberMe_Selected.png in Resources */,
+				C5A01C5E19307D3E003BAD15 /* LoginController.xib in Resources */,
+				C5A01C5919307CDA003BAD15 /* bgLogin.png in Resources */,
+				C5A01C6C19309805003BAD15 /* btnRememberMe@2x.png in Resources */,
+				C5A01C6A19309805003BAD15 /* btnRememberMe_Selected@2x.png in Resources */,
+				C5A01C6319308EE2003BAD15 /* imgLogo.png in Resources */,
+				C5A01C6419308EE2003BAD15 /* imgLogo@2x.png in Resources */,
 				C5A01C3919304FB8003BAD15 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +293,7 @@
 			files = (
 				C5A01C3719304FB8003BAD15 /* AppDelegate.m in Sources */,
 				C5A01C3319304FB8003BAD15 /* main.m in Sources */,
+				C5A01C5D19307D3E003BAD15 /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
