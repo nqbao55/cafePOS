@@ -39,13 +39,14 @@
     self.viewInput.layer.masksToBounds = YES;
     
     [txtUserName setFrame:CGRectMake(15, 10, 280, 35)];
-    [txtUserName setPlaceholder:@"Username"];
+    [txtUserName setPlaceholder:NSLocalizedString(@"username",nil)];
+    //[txtUserName setPlaceholder:[[NSBundle mainBundle] localizedStringForKey:(@"username") value:@"" table:nil]];
     [txtUserName setFont:[UIFont systemFontOfSize:17.0f]];
     [txtUserName setDelegate:self];
     
     [txtPassword setFrame:CGRectMake(15, 60, 280, 35)];
     [txtPassword setFont:[UIFont systemFontOfSize:17.0f]];
-    [txtPassword setPlaceholder:@"Password"];
+    [txtPassword setPlaceholder:NSLocalizedString(@"password",nil)];
     [txtPassword setSecureTextEntry:YES];
     [txtPassword setDelegate:self];
     // draw line
@@ -61,14 +62,14 @@
     [self.view addSubview:btnRememberMe];
     
     UILabel * lbRememberMe = [[UILabel alloc]initWithFrame:CGRectMake(btnRememberMe.frame.origin.x + 30, btnRememberMe.frame.origin.y, 120, 20)];
-    [lbRememberMe setText:@"Remember me"];
+    [lbRememberMe setText:NSLocalizedString(@"remember me",nil)];
     [lbRememberMe setTextColor:[UIColor whiteColor]];
     [lbRememberMe setFont:[UIFont systemFontOfSize:14.0f]];
     [self.view addSubview:lbRememberMe];
     
     // add button forgot password ?
     UIButton * btnForgotPassword = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btnForgotPassword setTitle:@"Forgot password ?" forState:UIControlStateNormal];
+    [btnForgotPassword setTitle:NSLocalizedString(@"forgot password",nil) forState:UIControlStateNormal];
     [btnForgotPassword setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [btnForgotPassword setFrame:CGRectMake(btnRememberMe.frame.origin.x + 150, btnRememberMe.frame.origin.y, 200, 20)];
     [btnForgotPassword.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
@@ -77,7 +78,7 @@
     
     // add button login
     UIButton * btnLogin = [[UIButton alloc]init];
-    [btnLogin setTitle:@"Login" forState:UIControlStateNormal];
+    [btnLogin setTitle:NSLocalizedString(@"login",nil) forState:UIControlStateNormal];
     [btnLogin.titleLabel setFont:[UIFont systemFontOfSize:20.0f]];
     [btnLogin setFrame:CGRectMake(viewInput.frame.origin.x, btnRememberMe.frame.origin.y + 40,  310.0f, 50.0f)];
     [btnLogin setBackgroundColor:[UIColor colorWithRed:46.0f/255 green:23.0f/255 blue:1.0f/255 alpha:1.0f]];
