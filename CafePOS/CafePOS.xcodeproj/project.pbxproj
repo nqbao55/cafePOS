@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C57E03C919397BC700CD84EC /*  Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C57E03CB19397BC700CD84EC /*  Localizable.strings */; };
+		C22B2290193EBB60006AA4C7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C22B2292193EBB60006AA4C7 /* Localizable.strings */; };
 		C57E03D2193980FF00CD84EC /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57E03D1193980FF00CD84EC /* LoginController.xib */; };
-		C57E03D31939833B00CD84EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5A01C2F19304FB8003BAD15 /* InfoPlist.strings */; };
 		C5A01C2719304FB8003BAD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2619304FB8003BAD15 /* Foundation.framework */; };
 		C5A01C2919304FB8003BAD15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2819304FB8003BAD15 /* CoreGraphics.framework */; };
 		C5A01C2B19304FB8003BAD15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A01C2A19304FB8003BAD15 /* UIKit.framework */; };
@@ -43,15 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C57E03CA19397BC700CD84EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ Localizable.strings"; sourceTree = "<group>"; };
-		C57E03CC19397BCC00CD84EC /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = "vi.lproj/ Localizable.strings"; sourceTree = "<group>"; };
+		C22B2291193EBB60006AA4C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C22B2293193EBB78006AA4C7 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C57E03D1193980FF00CD84EC /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
 		C5A01C2319304FB8003BAD15 /* CafePOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafePOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A01C2619304FB8003BAD15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5A01C2819304FB8003BAD15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C5A01C2A19304FB8003BAD15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C5A01C2E19304FB8003BAD15 /* CafePOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CafePOS-Info.plist"; sourceTree = "<group>"; };
-		C5A01C3019304FB8003BAD15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5A01C3219304FB8003BAD15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5A01C3419304FB8003BAD15 /* CafePOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CafePOS-Prefix.pch"; sourceTree = "<group>"; };
 		C5A01C3519304FB8003BAD15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 		C5A01C4719304FB8003BAD15 /* CafePOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CafePOSTests-Info.plist"; sourceTree = "<group>"; };
 		C5A01C4919304FB8003BAD15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5A01C4B19304FB8003BAD15 /* CafePOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CafePOSTests.m; sourceTree = "<group>"; };
-		C5A01C5519304FC7003BAD15 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5A01C5619304FC7003BAD15 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5A01C5819307CDA003BAD15 /* bgLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgLogin.png; sourceTree = "<group>"; };
 		C5A01C5A19307D3E003BAD15 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
@@ -149,10 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				C5A01C2E19304FB8003BAD15 /* CafePOS-Info.plist */,
-				C5A01C2F19304FB8003BAD15 /* InfoPlist.strings */,
 				C5A01C3219304FB8003BAD15 /* main.m */,
 				C5A01C3419304FB8003BAD15 /* CafePOS-Prefix.pch */,
-				C57E03CB19397BC700CD84EC /*  Localizable.strings */,
+				C22B2292193EBB60006AA4C7 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -267,8 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57E03D2193980FF00CD84EC /* LoginController.xib in Resources */,
-				C57E03D31939833B00CD84EC /* InfoPlist.strings in Resources */,
 				C5A01C6B19309805003BAD15 /* btnRememberMe.png in Resources */,
+				C22B2290193EBB60006AA4C7 /* Localizable.strings in Resources */,
 				C5A01C601930891A003BAD15 /* bgLogin@2x.png in Resources */,
 				C5A01C6919309805003BAD15 /* btnRememberMe_Selected.png in Resources */,
 				C5A01C5919307CDA003BAD15 /* bgLogin.png in Resources */,
@@ -276,7 +272,6 @@
 				C5A01C6A19309805003BAD15 /* btnRememberMe_Selected@2x.png in Resources */,
 				C5A01C6319308EE2003BAD15 /* imgLogo.png in Resources */,
 				C5A01C6419308EE2003BAD15 /* imgLogo@2x.png in Resources */,
-				C57E03C919397BC700CD84EC /*  Localizable.strings in Resources */,
 				C5A01C3919304FB8003BAD15 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,22 +316,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C57E03CB19397BC700CD84EC /*  Localizable.strings */ = {
+		C22B2292193EBB60006AA4C7 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C57E03CA19397BC700CD84EC /* en */,
-				C57E03CC19397BCC00CD84EC /* vi */,
+				C22B2291193EBB60006AA4C7 /* en */,
+				C22B2293193EBB78006AA4C7 /* vi */,
 			);
-			name = " Localizable.strings";
-			sourceTree = "<group>";
-		};
-		C5A01C2F19304FB8003BAD15 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5A01C3019304FB8003BAD15 /* en */,
-				C5A01C5519304FC7003BAD15 /* vi */,
-			);
-			name = InfoPlist.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		C5A01C4819304FB8003BAD15 /* InfoPlist.strings */ = {

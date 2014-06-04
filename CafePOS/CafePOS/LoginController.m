@@ -62,14 +62,14 @@
     [self.view addSubview:btnRememberMe];
     
     UILabel * lbRememberMe = [[UILabel alloc]initWithFrame:CGRectMake(btnRememberMe.frame.origin.x + 30, btnRememberMe.frame.origin.y, 120, 20)];
-    [lbRememberMe setText:NSLocalizedString(@"remember me",nil)];
+    [lbRememberMe setText:NSLocalizedString(@"remember_me",nil)];
     [lbRememberMe setTextColor:[UIColor whiteColor]];
     [lbRememberMe setFont:[UIFont systemFontOfSize:14.0f]];
     [self.view addSubview:lbRememberMe];
     
     // add button forgot password ?
     UIButton * btnForgotPassword = [UIButton buttonWithType:UIButtonTypeCustom];
-    [btnForgotPassword setTitle:NSLocalizedString(@"forgot password",nil) forState:UIControlStateNormal];
+    [btnForgotPassword setTitle:NSLocalizedString(@"forgot_password",nil) forState:UIControlStateNormal];
     [btnForgotPassword setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [btnForgotPassword setFrame:CGRectMake(btnRememberMe.frame.origin.x + 150, btnRememberMe.frame.origin.y, 200, 20)];
     [btnForgotPassword.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];

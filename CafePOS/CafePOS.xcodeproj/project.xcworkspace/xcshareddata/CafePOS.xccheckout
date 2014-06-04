@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D4906ADC-89D1-4961-8006-5BBB67780E55</string>
+	<string>629D5B17-458B-4936-9932-8621673283CC</string>
 	<key>IDESourceControlProjectName</key>
 	<string>CafePOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>DC274BC1-FC9F-4449-9984-AD20BBE5D96F</key>
-		<string>https://github.com/nqbao55/cafePOS.git</string>
+		<key>974C3D08-A067-42A8-A9ED-EE03DC9A4BC9</key>
+		<string>https://github.com/nqbao55/cafePOS</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CafePOS/CafePOS.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>DC274BC1-FC9F-4449-9984-AD20BBE5D96F</key>
+		<key>974C3D08-A067-42A8-A9ED-EE03DC9A4BC9</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/nqbao55/cafePOS.git</string>
+	<string>https://github.com/nqbao55/cafePOS</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>DC274BC1-FC9F-4449-9984-AD20BBE5D96F</string>
+	<string>974C3D08-A067-42A8-A9ED-EE03DC9A4BC9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DC274BC1-FC9F-4449-9984-AD20BBE5D96F</string>
+			<string>974C3D08-A067-42A8-A9ED-EE03DC9A4BC9</string>
 			<key>IDESourceControlWCCName</key>
-			<string>cafePOS</string>
+			<string>CafePOS</string>
 		</dict>
 	</array>
 </dict>
